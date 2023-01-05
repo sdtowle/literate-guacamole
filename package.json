@@ -1,0 +1,23 @@
+{
+  "name": "literate-guacamole",
+  "version": "1.0.0",
+  "description": "Just messing around with a social platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd web && npm run dev\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdtowle/literate-guacamole.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdtowle/literate-guacamole/issues"
+  },
+  "homepage": "https://github.com/sdtowle/literate-guacamole#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
